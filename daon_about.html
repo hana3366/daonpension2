@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/about.css" rel="stylesheet">
+    <link href="img/favicon.ico" type="img/x-icon" rel="shortcut icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <header></header>
+
+    <main class="container">
+        <div class="content">
+            <img src="img/1397c831_z.png">
+            <div class="text">
+                <h4>인사말</h4>
+                <p>안녕하세요. 다운펜션지기에요^^<br>
+                    천혜의 자연경관을 갖춘 경기도 가평!<br>
+                    칼봉산을 바라보며 자연과 하나되어<br>
+                    힐링 할 수 있는 펜션을 소개해드리려구요.<br>
+                    <br>
+                    하루를 머물러도 다시 오고 싶은 다온펜션<br>
+                    '다시 온다'해서 다온펜션 일까요?<br>
+                    '다~온다'의 다온펜션 일까요?<br>
+                    
+                    고객 여러분의 편안한 휴식처가 되어 드릴 다온펜션<br>
+                    가족과 연인, 친구 모두가 행복해지는 소중한 시간~<br>
+                    <br>
+                    에메랄드 빛 지중해 그리고...<br>
+                    그리스 산토리니를 마음속에 품고<br>
+                    멋진 추억을 만들어 가시기 바래요.<br>
+                </p> 
+            </div>
+        </div>    
+        
+        
+        <div class="map">
+            <h4>찾아오시는 길</h4>
+            <span>가슴 두근두근 설레게 하는 곳 다온펜션에 오신 것을 환영합니다.</span>
+            
+            <div>
+                <!-- 1. 지도 노드 -->
+                <div id="daumRoughmapContainer1611539934315" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                <!--
+                    2. 설치 스크립트
+                    * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                -->
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                <!-- 3. 실행 스크립트 -->
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp" : "1611539934315",
+                        "key" : "243xz",
+                        "mapWidth" : "1000",
+                        "mapHeight" : "800"
+                    }).render();
+                </script>
+            </div>    
+        </div>
+    </main> 
+    
+    <footer></footer>
+</body>
+</html>

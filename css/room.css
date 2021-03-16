@@ -1,0 +1,269 @@
+@charset 'utf-8';
+@import url('common.css');
+
+body{background: #222222;}
+header{
+
+	
+
+}
+header > div{
+	width:91%;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header div h2{
+	width: 80px;
+	height: 44px;
+	margin: 0 13px;  
+}
+header div nav:nth-of-type(1){
+    margin-left:auto ;
+}
+header div nav{
+	margin-right:-30px;
+}
+header div nav ul li{
+	display: inline-block;
+	position: relative;
+	right:35px 
+
+	 
+     
+}
+header div nav ul li div{
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	transform:translate(-50%,100%);
+	z-index:5;
+	background: #222222 ;
+	color: white;
+	width:100%;
+	font-size:17.5px;
+	font-family: YDIYGO310;
+	text-align: center;
+	padding:30px 0;
+	display: none
+}
+header div nav ul li div a{
+	padding:20px 0 0 15px;
+	display: block;
+	color:white;
+	text-align: left;
+}
+header div nav ul li > a{
+	text-align: left;
+	color:white;
+	text-decoration: none;
+	font-family:Helvetica;
+	margin-right:80px;
+	margin-left:10px;		
+}
+header div nav ul li:hover div{
+	display: block;
+
+
+}
+
+header .menu3 {
+	width: 26px; height: 14px;
+	display: block;
+	position: relative;
+	
+}
+header .menu3 span {
+	width: 100%; height: 2px;
+	background: white;
+	position: absolute;
+    right: 2px;
+	
+}
+header .menu3 span:nth-of-type(1){top:0}
+header .menu3 span:nth-of-type(2){top:calc(50% - 1px);}
+header .menu3 span:nth-of-type(3){bottom:0;}
+
+.container .content {
+	margin: 0 auto;
+	display: block;  
+	width:80%;
+   
+}
+
+
+.container .text h4{
+    color:white;
+    font-family: YDIYGO330;
+    font-size: 30.5px;
+    text-align: center;
+    margin-top: 55px;
+    
+}
+.container .text span{
+    color: white;
+    font-family: YDIYGO310;
+    font-size: 17.5px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.container .content{
+	position: relative;
+	height: 100%;
+}
+.container .content .img2{
+	position: relative;
+
+	
+
+}
+.container .content .img2 img{
+	width: 100%;
+}
+.container .content .text2{
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	left:0px; bottom:0px;
+	height: 100%;
+	width:495px;
+}
+.container .text2 h4{
+	color:white;
+	font-size: 30.5px;
+	font-family: YDIYGO310;
+	margin-top: 200px;
+	margin-bottom: 35px;
+	margin-left: 40px;
+}
+.container .text2 strong{
+	color: white;
+	font-family: YDIYGO330;
+	font-size: 17.5px;
+	left: 0;
+	display: block;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+.container .text2 p{
+	color: white;
+	font-family: YDIYGO310;
+	font-size: 17.5px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+.container .text2 table{
+	margin-left: 40px;
+	margin-bottom: 20px;
+	margin-top: 1px;
+	width: 384px;
+    height: 81px;	
+}
+.container .text2 table th{
+	border: 1px solid #fff;
+	color:white;
+}	
+.container .text2 tr td{
+	color:white;
+	border: 1px solid #fff;
+	text-align: center;
+
+}
+.container .ellipse{
+	position:absolute;
+	bottom:20px;
+	left:700px;
+	display: flex
+}
+.container .ellipse a{
+	color:rgba(255, 255, 255, 0.6);
+	border-radius:10px;
+	width:19px; height:19px;
+	display:inline-block;
+	background: rgba(255, 255, 255, 0.6);
+	margin: 0 5px;
+}
+.container .graph{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.container .graph span{
+	color: white;
+	margin: 0 auto;
+	margin-left: 20px;
+	margin-right:20px;
+	font-family: YDIYGO310;
+    font-size: 17.5px;
+	
+}
+.container .content .room{
+	color: white;
+	margin: 0 auto;
+	margin-top: 20px;
+	width:80%;
+	margin:0 auto;
+	text-align:center
+
+	
+}
+.container .content .room tr {
+	border-bottom: 1px solid #686868;
+		
+}
+.container .content .room tr th{
+	font-family: YDIYGO310;
+	font-size: 17.5px;
+	padding: 10px;
+	border-top:1px solid #686868;
+    
+}
+.container .content .room tr td{
+	font-family:YDIYGO330;
+	font-size: 17.5px;
+	padding:10px;
+}
+.container .content .reservation{
+	background: #4f4f4f;
+
+}
+.content .content .reservation td{
+	color:#b6b6b6;
+	font-family:YDIYGO310;
+	font-size: 17.5px;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 128px;
+	width:100%;
+	margin: 0 auto;
+	
+}	
+.footer p{
+	color:rgba(255, 255, 255, 0.38);
+	font-family: YDIYGO310;
+	font-size: 10px;
+	
+	
+}
+
+}
+.footer .col-md-4 ul li{
+	width: 25px;
+	height: 22px;
+	display:block;
+	top:0;
+	right: 0;
+
+	
+	
+
+}

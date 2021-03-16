@@ -1,0 +1,813 @@
+@charset 'utf-8';
+@import url('common.css');
+
+body{background: #222222;}
+header{
+
+	
+
+}
+header > div{
+	width:91%;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header div h2{
+	width: 80px;
+	height: 44px;
+	margin: 0 13px;  
+}
+header div nav:nth-of-type(1){
+    margin-left:auto ;
+}
+header div nav{
+	margin-right:-30px;
+}
+header div nav ul li{
+	display: inline-block;
+	position: relative;
+	right:35px 
+
+	 
+     
+}
+header div nav ul li div{
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	transform:translate(-50%,100%);
+	z-index:5;
+	background: #222222 ;
+	color: white;
+	width:100%;
+	font-size:17.5px;
+	font-family: YDIYGO310;
+	text-align: center;
+	padding:30px 0;
+	display: none
+}
+header div nav ul li div a{
+	padding:20px 0 0 15px;
+	display: block;
+	color:white;
+	text-align: left;
+}
+header div nav ul li > a{
+	text-align: left;
+	color:white;
+	text-decoration: none;
+	font-family:Helvetica;
+	margin-right:80px;
+	margin-left:10px;		
+}
+header div nav ul li:hover div{
+	display: block;
+
+
+}
+
+header .menu3 {
+	width: 26px; height: 14px;
+	display: block;
+	position: relative;
+	
+}
+header .menu3 span {
+	width: 100%; height: 2px;
+	background: white;
+	position: absolute;
+    right: 2px;
+	
+}
+header .menu3 span:nth-of-type(1){top:0}
+header .menu3 span:nth-of-type(2){top:calc(50% - 1px);}
+header .menu3 span:nth-of-type(3){bottom:0;}
+
+
+.container .content .text h4{
+	color: white;
+	font-family: YDIYGO330;
+	font-size: 30.5px;
+	text-align: center;
+	margin-top: 55px;
+}
+.container .content .text span{
+	color: white;
+	font-family:YDIYGO310;
+	font-size: 17.5px;
+	text-align: center;
+	display: block;
+	margin-top: 15px;
+    margin-bottom: 50px;
+}
+.container .content .date{
+	text-align: center;
+	margin-top: 20px;
+	
+}
+.container .content .date a{
+	margin-left: 20px;
+	margin-right:20px;
+	
+
+}
+.container .content .date span{
+	color:white;
+	font-family: YDIYGO310;
+	font-size: 18px;
+	
+
+}
+.container .content .room{
+	width:1518px;
+	margin: 0 auto;
+	
+	
+}
+
+
+
+	
+.container .content .room thead tr{
+	width:auto;
+	
+	
+}
+.container .content .room thead tr th,
+.container .content .room tbody tr th{
+	width:12%;
+    color: white;
+	font-family: YDIYGO310;
+	font-size: 18px;
+	padding: 8px ;
+	border-bottom:1px solid #a9a8a8;
+	background: #4f4f4f;
+}
+.container .content .room tbody tr td{
+	color: white;
+	font-family: YDIYGO330;
+	font-size: 18.5px;
+	border-bottom: 1px solid #a9a8a8;
+	padding: 13px;
+	text-align: center;
+}
+
+.container .content .room tbody tr:nth-of-type(2n) td{
+	color: #a9a8a8;
+}
+
+.container .content2 .text h4{
+	color: white;
+	font-family: YDIYGO330;
+	font-size: 30.5px;
+	text-align: center;
+	margin-top: 55px;
+
+}
+.container .content2 .text span{
+	color: white;
+	font-family:YDIYGO310;
+	font-size: 17.5px;
+	text-align: center;
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.container .content2 .cal{
+	margin-left: 450px;
+	margin-top:30px;
+	
+}
+.container .content2 .cal a{
+	margin-left: 20px;
+	margin-right:20px;
+	margin-top: 5px;
+	
+    
+
+}
+.container .content2 .cal span{
+	color:white;
+	font-family: YDIYGO330;
+	font-size: 30.83px;
+}
+
+.container .content2 .cal2 img{
+	margin-left:180px;
+	margin-top: 50px;
+}
+
+.container .content2 .calre{
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .content2 .resercancel .resercancel2{
+	width: 705px;height: 566px;
+	border:1px solid white;
+	margin-right: 190px;
+	margin-top:47px ;
+	position: relative;
+	
+}
+.container .content2 .resercancel h4{
+	color: white;
+	font-family: YDIYGO330;
+	font-size: 30.83px;
+	margin-left: 230px;
+	margin-top: 33px;
+}
+
+.container .content2 .resercancel .resercancel2 ul li{
+	color: white;
+	margin-bottom: 40px;
+}	
+
+.container .content2 .resercancel .resercancel2 ul li label{
+	display: block;
+	color: white;
+	font-size: 17.4 px;
+	font-family:YDIYGO330 ;
+	margin-bottom: 10px;
+	
+	
+	
+	
+	
+}
+.container .content2 .resercancel .resercancel2 ul li input{
+	background:#a4a4a4;
+	width:556px;
+	height: 53px;
+	
+	
+
+}
+.container .content2 .resercancel .resercancel2 ul li input[name='phone']{
+	width:31.5%
+}
+
+.container .content2 .resercancel .resercancel2 .resercancel3{
+	padding: 70px;
+	
+}
+.container .content2 .resercancel .resercancel2 .resercancel3 a{
+	position: absolute;
+	text-align: center;
+	background:#4f4f4f;
+	
+	font-family:YDIYGO310 ;
+	font-size: 18px;
+	left: 0; bottom: 0;
+	width:100%;
+	color:white;
+	padding:25px
+}
+
+
+.reservationroom {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 90px;
+	
+}
+.reservationroom .rooms img{
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.reservationroom h5{
+	color:#222222;
+	font-size: 13.27px;
+	font-family:YDIYGO310 ;
+	background: white;
+	width: 64px;
+	height: 24px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.reservationroom span{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	display: block;
+	margin-top: 5px;
+}
+.reservationroom p{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	margin-top: 5px;
+	
+}
+.reservationroom .rooms{
+	display: flex;
+	
+}
+.reservationroom .rooms div{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.reservationroom tr{
+	border-bottom:1px solid #a9a8a8;
+	border-top:1px solid #a9a8a8;
+	
+}
+.reservationroom tr td{
+	color:white;
+	border-right:1px solid #a9a8a8;	
+	text-align: center;
+}
+.reservationroom tr td:nth-of-type(1),
+.reservationroom tr td:nth-of-type(6){border-right:0}
+.reservationroom tr .date{
+	color:white;
+	
+}
+.reservationroom tr .number{
+	display: flex;
+}
+
+.reservationroom2 {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
+.reservationroom2 .rooms img{
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.reservationroom2 h5{
+	color:#222222;
+	font-size: 13.27px;
+	font-family:YDIYGO310 ;
+	background: white;
+	width: 64px;
+	height: 24px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.reservationroom2 span{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	display: block;
+	margin-top: 5px;
+}
+.reservationroom2 p{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	margin-top: 5px;
+	
+}
+.reservationroom2 .rooms{
+	display: flex;
+	
+}
+.reservationroom2 .rooms div{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.reservationroom2 tr{
+	border-bottom:1px solid #a9a8a8;
+	
+	
+}
+.reservationroom2 tr td{
+	color:white;
+	
+}
+.reservationroom2 tr .date{
+	color:white;
+	
+}
+.reservationroom2 tr .number{
+	display: flex;
+}
+
+.reservationroom3 {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
+.reservationroom3 .rooms img{
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.reservationroom3 h5{
+	color:#222222;
+	font-size: 13.27px;
+	font-family:YDIYGO310 ;
+	background: white;
+	width: 64px;
+	height: 24px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.reservationroom3 span{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	display: block;
+	margin-top: 5px;
+}
+.reservationroom3 p{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	margin-top: 5px;
+	
+}
+.reservationroom3 .rooms{
+	display: flex;
+	
+}
+.reservationroom3 .rooms div{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.reservationroom3 tr{
+	border-bottom:1px solid #a9a8a8;
+	
+	
+}
+.reservationroom3 tr td{
+	color:white;
+	
+}
+.reservationroom3 tr .date{
+	color:white;
+	
+}
+.reservationroom3 tr .number{
+	display: flex;
+}
+
+.reservationroom4 {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
+.reservationroom4 .rooms img{
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.reservationroom4 h5{
+	color:#222222;
+	font-size: 13.27px;
+	font-family:YDIYGO310 ;
+	background: white;
+	width: 64px;
+	height: 24px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.reservationroom4 span{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	display: block;
+	margin-top: 5px;
+}
+.reservationroom4 p{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	margin-top: 5px;
+	
+}
+.reservationroom4 .rooms{
+	display: flex;
+	
+}
+.reservationroom4 .rooms div{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.reservationroom4 tr{
+	border-bottom:1px solid #a9a8a8;
+	
+	
+}
+.reservationroom4 tr td{
+	color:white;
+	
+}
+.reservationroom4 tr .date{
+	color:white;
+	
+}
+.reservationroom4 tr .number{
+	display: flex;
+}
+
+.reservationroom5 {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
+.reservationroom5 .rooms img{
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.reservationroom5 h5{
+	color:#222222;
+	font-size: 13.27px;
+	font-family:YDIYGO310 ;
+	background: white;
+	width: 64px;
+	height: 24px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.reservationroom5 span{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	display: block;
+	margin-top: 5px;
+}
+.reservationroom5 p{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	margin-top: 5px;
+	
+}
+.reservationroom5 .rooms{
+	display: flex;
+	
+}
+.reservationroom5 .rooms div{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.reservationroom5 tr{
+	border-bottom:1px solid #a9a8a8;
+	
+	
+}
+.reservationroom5 tr td{
+	color:white;
+	
+}
+.reservationroom5 tr .date{
+	color:white;
+	
+}
+.reservationroom5 tr .number{
+	display: flex;
+}
+
+.reservationroom6 {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
+.reservationroom6 .rooms img{
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.reservationroom6 h5{
+	color:#222222;
+	font-size: 13.27px;
+	font-family:YDIYGO310 ;
+	background: white;
+	width: 64px;
+	height: 24px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.reservationroom6 span{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	display: block;
+	margin-top: 5px;
+}
+.reservationroom6 p{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	margin-top: 5px;
+	
+}
+.reservationroom6 .rooms{
+	display: flex;
+	
+}
+.reservationroom6 .rooms div{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.reservationroom6 tr{
+	border-bottom:1px solid #a9a8a8;
+	
+	
+}
+.reservationroom6 tr td{
+	color:white;
+	
+}
+.reservationroom6 tr .date{
+	color:white;
+	
+}
+.reservationroom6 tr .number{
+	display: flex;
+}
+
+.reservationroom7 {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
+.reservationroom7 .rooms img{
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.reservationroom7 h5{
+	color:#222222;
+	font-size: 13.27px;
+	font-family:YDIYGO310 ;
+	background: white;
+	width: 64px;
+	height: 24px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.reservationroom7 span{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	display: block;
+	margin-top: 5px;
+}
+.reservationroom7 p{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	margin-top: 5px;
+	
+}
+.reservationroom7 .rooms{
+	display: flex;
+	
+}
+.reservationroom7 .rooms div{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.reservationroom7 tr{
+	border-bottom:1px solid #a9a8a8;
+	
+	
+}
+.reservationroom7 tr td{
+	color:white;
+	
+}
+.reservationroom7 tr .date{
+	color:white;
+	
+}
+.reservationroom7 tr .number{
+	display: flex;
+}
+
+.reservationroom8 {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
+.reservationroom8 .rooms img{
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.reservationroom8 h5{
+	color:#222222;
+	font-size: 13.27px;
+	font-family:YDIYGO310 ;
+	background: white;
+	width: 64px;
+	height: 24px;
+	text-align: center;
+	padding-top: 5px;
+	
+}
+.reservationroom8 span{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	display: block;
+	margin-top: 5px;
+}
+.reservationroom8 p{
+	color:white;
+	font-size: 17.4 px;
+	font-family:YDIYGO310 ;
+	margin-top: 5px;
+	
+}
+.reservationroom8 .rooms{
+	display: flex;
+	
+}
+.reservationroom8 .rooms div{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.reservationroom8 tr{
+	border-bottom:1px solid #a9a8a8;
+	
+	
+}
+.reservationroom8 tr td{
+	color:white;
+	border-right:1px solid #a9a8a8;
+	
+}
+.reservationroom8 tr .date{
+	color:white;
+	
+}
+.reservationroom8 tr .number{
+	display: flex;
+}
+
+.reserv{
+	background: #4f4f4f;
+	width:453px;
+	height: 77px;
+	margin-top: 100px;
+	margin: 0 auto;
+	margin-top: 80px;
+	
+}
+.reserv p{
+	color: white;
+	font-size:18px ;
+	font-family:YDIYGO310 ;
+	font-weight: bold;
+	text-align: center;
+	padding:30px 
+}
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 128px;
+	width:100%;
+	margin: 0 auto;
+	
+}	
+.footer p{
+	color:rgba(255, 255, 255, 0.38);
+	font-family: YDIYGO310;
+	font-size: 10px;
+	
+	
+}
+
+}
+.footer .col-md-4 ul li{
+	width: 25px;
+	height: 22px;
+	display:block;
+	top:0;
+	right: 0;
+
+	
+	
+
+}
+
+
+

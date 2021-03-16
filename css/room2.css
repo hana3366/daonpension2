@@ -1,0 +1,240 @@
+@charset 'utf-8';
+@import url('common.css');
+
+body{background: #222222;}
+header{
+
+	
+
+}
+header > div{
+	width:91%;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header div h2{
+	width: 80px;
+	height: 44px;
+	margin: 0 13px;  
+}
+header div nav:nth-of-type(1){
+    margin-left:auto ;
+}
+header div nav{
+	margin-right:-30px;
+}
+header div nav ul li{
+	display: inline-block;
+	position: relative;
+	right:35px 
+
+	 
+     
+}
+header div nav ul li div{
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	transform:translate(-50%,100%);
+	z-index:5;
+	background: #222222 ;
+	color: white;
+	width:100%;
+	font-size:17.5px;
+	font-family: YDIYGO310;
+	text-align: center;
+	padding:30px 0;
+	display: none
+}
+header div nav ul li div a{
+	padding:20px 0 0 15px;
+	display: block;
+	color:white;
+	text-align: left;
+}
+header div nav ul li > a{
+	text-align: left;
+	color:white;
+	text-decoration: none;
+	font-family:Helvetica;
+	margin-right:80px;
+	margin-left:10px;		
+}
+header div nav ul li:hover div{
+	display: block;
+
+
+}
+
+header .menu3 {
+	width: 26px; height: 14px;
+	display: block;
+	position: relative;
+	
+}
+header .menu3 span {
+	width: 100%; height: 2px;
+	background: white;
+	position: absolute;
+    right: 2px;
+	
+}
+header .menu3 span:nth-of-type(1){top:0}
+header .menu3 span:nth-of-type(2){top:calc(50% - 1px);}
+header .menu3 span:nth-of-type(3){bottom:0;}
+
+.container .title h4{
+    color: white;
+    font-family: YDIYGO330;
+    font-size:30.5px;
+    text-align: center;
+    margin-top: 55px;
+}
+.container .title span{
+    color: white;
+    font-family:YDIYGO310 ;
+    font-size:17.5px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.container .content h4{
+    color:white;
+    font-family:Helvetica;
+	font-size: 30.5px;
+	text-align: center;
+	margin-bottom: 40px;
+	
+}
+.container .content2 h4{
+	color:white;
+    font-family:Helvetica;
+	font-size: 30.5px;
+	text-align: center;
+	margin-bottom: 40px;
+    
+}
+.container .content4{
+	display: flex;
+	margin: 0 auto;
+	width:1673px;
+	justify-content: space-between;
+	
+	
+	
+}.container .content4 .content{width:48%}
+.container .content4 .content .imgcontent{
+	overflow: hidden;
+	width:100%;
+}
+.container .content4 .content .imgcontent > div{
+	float: left;
+	width:50%;
+	position: relative;
+}
+.container .content4 .content .imgcontent > div img{
+	width:100%;
+	position: relative;
+
+}
+.container .content4 .content .imgcontent > div img :hover{
+	
+	
+}
+.container .content4 .content .imgcontent .content3{
+	position: absolute;
+	background:white;
+	left: 0;top:0;
+	width: 100%;
+	height: 100%;
+	
+}
+.container .content4 .content .imgcontent .content3 h5{
+	font-family:Helvetica;
+	font-size:14.21px;
+	color:white;
+	background:#877c63;
+	width: 143px;
+	height: 18px;
+	text-align: center;
+}
+.container .content4 .content .imgcontent .content3 h4{
+	font-size: 20.8px;
+	font-family:YDIYGO330;
+}
+.container .content4 .content .imgcontent div:nth-of-type(1){width:100%}
+
+
+
+
+
+.container .content4 .content2{width:48%;}
+
+.container .content4 .content2 .imgcontent2{
+	font-size: 0;
+	width:100%;
+}
+.container .content4 .content2 .imgcontent2 > div{
+	float: left;
+	width:50%;
+	
+}
+.container .content4 .content2 .imgcontent2 > div img{
+	width:100%;
+	
+}
+.container .content4 .content2 .imgcontent2 div:nth-of-type(5){width:100%}
+
+.container .content4 .content .imgcontent .content3{
+	position: absolute;
+}
+.container .content4 .content .imgcontent .content3 h5{
+	font-family: YDIYGO330;
+	font-size: 14.21px;
+	color:white;
+}
+.container .content4 .content .imgcontent .content3 h4{
+	font-family: YDIYGO330;
+	font-size: 20.8px;
+	color: #222222;
+}
+.container .content4 .content .imgcontent .content3 p{
+	font-family: YDIYGO310;
+	font-size: 19.29px;
+	color: #222222;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 128px;
+	width:100%;
+	margin: 0 auto;
+	
+}	
+.footer p{
+	color:rgba(255, 255, 255, 0.38);
+	font-family: YDIYGO310;
+	font-size: 10px;
+	
+	
+}
+
+}
+.footer .col-md-4 ul li{
+	width: 25px;
+	height: 22px;
+	display:block;
+	top:0;
+	right: 0;
+
+	
+	
+
+}
